@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'SharpTitulo';
+    src        : url('../SharpGrotesk-Book25.otf');
+}
+
+@font-face {
+    font-family: 'textoPlano';
+    src        : url('../SharpGrotesk-Medium20.otf');
+}
+
+
+main {
+    color: #000000;
+
+}
+
+#titulo {
+    font-family   : SharpTitulo;
+    font-size     : 3vw;
+    text-transform: uppercase;
+    text-align    : center;
+}
+
+h2 {
+    font-family   : SharpTitulo;
+    font-size     : 1.2vw;
+    text-transform: uppercase;
+}
+
+
+
+input[type=text],
+select,
+textarea {
+    width        : 100%;
+    padding      : 12px;
+    border       : 1px solid #ccc;
+    border-radius: 4px;
+    resize       : vertical;
+    height: 1vh;
+}
+
+input[type=date],
+select,
+textarea {
+    width        : 100%;
+    padding      : 12px;
+    border       : 1px solid #ccc;
+    border-radius: 4px;
+    resize       : vertical;
+    height: 1vh;
+}
+
+input[type=time],
+select,
+textarea {
+    width        : 100%;
+    padding      : 12px;
+    border       : 1px solid #ccc;
+    border-radius: 4px;
+    resize       : vertical;
+    height: 1vh;
+}
+
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color           : white;
+    padding         : 12px 20px;
+    border          : none;
+    border-radius   : 4px;
+    cursor          : pointer;
+    float           : right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form{
+    position: relative;
+    left: 10vw;
+    display: flex;
+    width: 80vw;
+    height: 55vh;
+
+}
+
+.container {
+    border-radius   : 5px;
+    background-color: #f2f2f2;
+    padding         : 2vw;
+    margin-right: 1vw;
+    width: 40vw;
+    height: 55vh;
+}
+
+.col-25 {
+    float     : left;
+    width     : 15vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}
+
+.col-75 {
+    float     : left;
+    width     : 15vw;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}
+
+.col-100 {
+    float     : left;
+    width     : 33vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear  : both;
+}
+
+#enviar{
+    float     : left;
+    width     : 34.5vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}

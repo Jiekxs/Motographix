@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'SharpTitulo';
+    src        : url('../SharpGrotesk-Book25.otf');
+}
+
+@font-face {
+    font-family: 'textoPlano';
+    src        : url('../SharpGrotesk-Medium20.otf');
+}
+
+
+main {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row a{
+    color: #000000;
+}
+
+
+#titulo {
+    font-family   : SharpTitulo;
+    font-size     : 3vw;
+    text-transform: uppercase;
+    text-align    : center;
+}
+
+h2 {
+    font-family   : SharpTitulo;
+    font-size     : 1.2vw;
+    text-transform: uppercase;
+}
+
+#menuLateral{
+    display: none;
+}
+
+input[type=email],
+select,
+textarea {
+    width        : 100%;
+    padding      : 12px;
+    border       : 1px solid #ccc;
+    border-radius: 4px;
+    resize       : vertical;
+    height: 1vh;
+}
+input[type=text],
+select,
+textarea {
+    width        : 100%;
+    padding      : 12px;
+    border       : 1px solid #ccc;
+    border-radius: 4px;
+    resize       : vertical;
+    height: 1vh;
+}
+input[type=password],
+select,
+textarea {
+    width        : 100%;
+    padding      : 12px;
+    border       : 1px solid #ccc;
+    border-radius: 4px;
+    resize       : vertical;
+    height: 1vh;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color           : white;
+    padding         : 12px 20px;
+    border          : none;
+    border-radius   : 4px;
+    cursor          : pointer;
+    float           : right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form{
+    position: relative;
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    border-radius   : 5px;
+    background-color: #ffffff00;
+    padding         : 2vw;
+    width: 35vw;
+    height: 65vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-25A {
+    float     : left;
+    width     : 13vw;
+    margin-top: 4vh;
+    font-family: textoPlano;
+    display: flex;
+    align-items: center;
+}
+
+.col-75 {
+    float     : left;
+    width     : 9vw;
+    margin-left: 0vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}
+
+.col-75A {
+    float     : left;
+    width     : 9vw;
+    margin-left: 0vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}
+
+.col-100 {
+    float     : left;
+    width     : 25vw;
+    margin-top: 0.6vh;
+    font-family: textoPlano;
+}
+
+.col-100A {
+    float     : left;
+    width     : 25vw;
+    margin-top: 5vh;
+    font-family: textoPlano;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear  : both;
+}
+
+.row {
+    font-family: textoPlano;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+#logoA{
+    width: 25vw;
+}
+
+iframe{
+    width: 33vw;
+    height: 22vh;
+    margin-top: 0.3vh;
+}
+
+#enviar{
+    float     : left;
+    width     : 10.4vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}
+
+
+#enviar2{
+    float     : left;
+    width     : 26.5vw;
+    margin-top: 2vh;
+    font-family: textoPlano;
+}
