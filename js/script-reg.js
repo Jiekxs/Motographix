@@ -55,4 +55,5 @@ document.getElementById("formulario").addEventListener("submit", function(event)
     document.getElementById("formulario").reset();
 
     alert("Usuario registrado correctamente");
+    window.location.href = "../layouts/home_layout.html?marca=login";
 });

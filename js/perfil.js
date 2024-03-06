@@ -99,4 +99,5 @@ function borrarCuenta() {
     localStorage.setItem("usuarios", JSON.stringify(usuariosRegistrados));
 
     alert("Cuenta eliminada correctamente");
+    window.location.href = "../layouts/home_layout.html?marca=registro"
 }
