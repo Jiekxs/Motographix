@@ -13,7 +13,7 @@ function opa($nom) {
     login: "../layouts/home_layout.html?marca=login",
     registro: "../layouts/home_layout.html?marca=registro",
     perfil: "../layouts/home_layout.html?marca=perfil",
-    index: "/index.php",
+    index: "/index.html",
     a1: "../layouts/home_layout.html?marca=a1",
     a2: "../layouts/home_layout.html?marca=a2",
     a3: "../layouts/home_layout.html?marca=a3",

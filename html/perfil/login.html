@@ -1,40 +1,34 @@
 <main id="main-content">
-    
-    <form action="" method="post" id="formualrio">
-        
+    <form id="formulario">
         <div class="container">
-            
             <div class="row">
                 <img id="logoA" src="../../Material_gráfico/Logos/Logo.png" alt="">
                 <h2>Accede a MotoGraphix</h2>
                 <div class="col-100">
-                    Correo electronico
-                    <input type="email" id="fname" name="firstname" placeholder="Tu correo..">
+                    Correo electrónico:
+                    <input type="email" id="correo_electronico" name="correo_electronico" placeholder="Tu correo.." required>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-100">
-                    Contraseña
-                    <input type="password" id="fname" name="firstname" placeholder="Tu contraseña..">
+                    Contraseña:
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Tu contraseña.." required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-25A">
                     <a href="#">¿Olvidó la contraseña?</a>
-                    
                 </div>
                 <div class="col-75">
                     <input id="enviar" type="submit" value="INICIAR SESIÓN">
-
                 </div>
             </div>
             <div class="row">
                 <div class="col-100A">
-                    ¿No tienes cuenta? <a onclick="opa('registro')">Registrate</a>
+                    ¿No tienes cuenta? <a href="#" onclick="opa('registro')">Regístrate</a>
                 </div>
             </div>
-
         </div>
     </form>
 </main>
+<script src="/js/script-acc.js"></script>

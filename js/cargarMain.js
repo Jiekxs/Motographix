@@ -36,21 +36,22 @@ $(document).ready(function() {
             'css': '../css/formularios.css'
         },
         'login': {
-            'html': '/html/perfil/login.php',
+            'html': '/html/perfil/login.html',
             'css': '../css/acceder.css'
         },
         'registro': {
-            'html': '/html/perfil/registro.php',
+            'html': '/html/perfil/registro.html',
             'css': '../css/acceder.css'
         },
         'perfil': {
-            'html': '/html/perfil/perfil.html'
+            'html': '/html/perfil/perfil.html',
+            'css': '../css/perfil.css'
         },
         'modelo': {
             'html': '/html/modelo.html'
         },
         'index': {
-            'html': '/index.php'
+            'html': '/index.html'
         },
         'a1': {
             'html': '/html/modelos/aprilia/a1.html',
